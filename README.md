@@ -206,3 +206,13 @@ Go and get the MetaMask Extension
 - Video link: https://res.cloudinary.com/dlw2jic1w/video/upload/v1640684212/tutorials/MetaMaskAddAccount_r8orsg.mkv
 - Consistent. Meaning you can keep this in your account.
 - Make sure metamask is pointed to "localhost"
+
+## Terminology
+
+- Web3: In general means blockchain tech with some purpose
+- Ethereum: The blockchain we will we be developing with
+- Provider: From Ethers docs:
+  "A Provider abstracts a connection to the Ethereum blockchain, for issuing queries and sending state changing transactions."
+
+- Contract: This is code written in Solidity that has been compiled and deployed onto a network. It has an address that is no different than a wallet address.
+- Wallet: The blockchain, its a private + public key combo (really you just need a private key).
