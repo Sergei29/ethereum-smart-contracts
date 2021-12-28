@@ -139,7 +139,7 @@ on one terminal run:
 
 on the second terminal run:
 
-- `npx hardhat run scripts/deploy.ts --network localhost`
+- `npx hardhat run scripts/deploy-hello.ts --network localhost`
 
 ## Lets go deeper.
 
@@ -195,3 +195,13 @@ eth_call
 - New Contract deployed at the address: `...0aa3`
   ...
 - A method has been called `HelloWorld#hello` from account #0 `...2266` to contract `...0aa3`
+
+## Lets communicate from the browser.
+
+Go and get the MetaMask Extension
+
+## Import a test account into your metamask
+
+- Copy any of the accounts from the initial output.
+- Consistent. Meaning you can keep this in your account.
+- Make sure metamask is pointed to "localhost"
