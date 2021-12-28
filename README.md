@@ -209,10 +209,22 @@ Go and get the MetaMask Extension
 
 ## Terminology
 
-- Web3: In general means blockchain tech with some purpose
-- Ethereum: The blockchain we will we be developing with
-- Provider: From Ethers docs:
+- `Web3`: In general means blockchain tech with some purpose
+- `Ethereum`: The blockchain we will we be developing with
+- `Provider`: From Ethers docs:
   "A Provider abstracts a connection to the Ethereum blockchain, for issuing queries and sending state changing transactions."
 
-- Contract: This is code written in Solidity that has been compiled and deployed onto a network. It has an address that is no different than a wallet address.
-- Wallet: The blockchain, its a private + public key combo (really you just need a private key).
+- `Contract`: This is code written in Solidity that has been compiled and deployed onto a network. It has an address that is no different than a wallet address.
+- `Wallet`: The blockchain, its a private + public key combo (really you just need a private key).
+
+## Technology
+
+- `ethers`: import { ethers } from "ethers";. This is lib that abstracts the complication of communication.
+- `hardhat`: Its backbone of any project these days. It provides compiling, testing, and deployment support.
+  When you get a getContractFactory("HelloWorld") it actually just loads the file from the json build file.
+- `metamask`: Its a browser plugin for wallets. "The Defacto Standard"
+  You will notice that in the code on the web I don't reference hardhat. That is because hardhat is a support lib.
+
+### Smart Contract Deployment Diagram explained:
+
+- https://res.cloudinary.com/dlw2jic1w/video/upload/v1640703515/tutorials/SmartContractDeployDiagram_bq7kis.mkv
