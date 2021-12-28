@@ -203,5 +203,6 @@ Go and get the MetaMask Extension
 ## Import a test account into your metamask
 
 - Copy any of the accounts from the initial output.
+- Video link: https://res.cloudinary.com/dlw2jic1w/video/upload/v1640684212/tutorials/MetaMaskAddAccount_r8orsg.mkv
 - Consistent. Meaning you can keep this in your account.
 - Make sure metamask is pointed to "localhost"
